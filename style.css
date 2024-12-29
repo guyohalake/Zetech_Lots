@@ -1,0 +1,180 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(220, 213, 213);
+}
+
+.nav_container{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.logo{
+    height: 60px;
+    width: 150px;
+}
+
+.nav_links{
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    right: 50px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.nav_links ul{
+    display: flex;
+    gap: 5em;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.image_container{
+   height: 100vh;
+   position: relative;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   
+   &::before{
+    content: '';
+    background-image: url(image_home.jpg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 1;
+    filter: brightness(90%);
+   }
+}
+
+.welcome_msg{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 600px;
+}
+
+
+.logIn_links{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+   
+}
+
+.staff_logInBox{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid black 1px;
+    box-shadow: rgb(138, 136, 136) 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.click_here{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -130px;
+}
+
+
+.click_here1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -95px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(14, 13, 13,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contact_info{
+    width: 250px;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-phone{
+    margin-right: 10px;
+}
+
+.fa-whatsapp{
+    margin-right: 10px;
+}
+
+.fa-envelope{
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    margin-right: 10px;
+}
+
+
+
+/*Suppot page Suppot page Suppot page Suppot page Suppot page Suppot page Suppot page Suppot page */
+
+.support_container{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(193, 177, 147);
+}
+
+
+
+
+
